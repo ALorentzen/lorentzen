@@ -1,8 +1,8 @@
-Lorentzen Portfolio 2022 
-  Creator: Anders Lorentzen
-  Developer: Anders Lorentzen
-  CMS: Statamic 
-  Build: Laravel Valet
+Lorentzen Portfolio 2022  <br>
+  Creator: Anders Lorentzen  <br>
+  Developer: Anders Lorentzen <br>
+  CMS: Statamic  <br>
+  Build: Laravel Valet <br>
   
 
 
