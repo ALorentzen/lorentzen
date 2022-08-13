@@ -1,0 +1,14 @@
+<div class="w-full bg-blue-200 h-[10rem] text-center">
+
+  {{ title }}
+
+    {{ portfolio_categories }}
+      {{ if type == "text" }}
+        {{ text }}
+
+      {{ elseif type == "portfolio_container" }}
+        {{ partial src="sets/portfolio_container" }}
+      {{ /if }}
+    {{ /portfolio_categories }}
+
+</div>
