@@ -515,6 +515,14 @@ video {
   position: absolute;
 }
 
+.relative {
+  position: relative;
+}
+
+.top-\[5rem\] {
+  top: 5rem;
+}
+
 .top-0 {
   top: 0px;
 }
@@ -523,9 +531,12 @@ video {
   margin: 0 auto;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
+.m-\[1rem\] {
+  margin: 1rem;
+}
+
+.mt-\[5rem\] {
+  margin-top: 5rem;
 }
 
 .block {
@@ -548,25 +559,44 @@ video {
   height: 2.5rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.min-h-full {
+  min-height: 100%;
+}
+
 .w-full {
   width: 100%;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
   flex-direction: column;
 }
 
-.items-center {
-  align-items: center;
+.rounded-sm {
+  border-radius: 0.125rem;
 }
 
-.justify-center {
-  justify-content: center;
+.border-2 {
+  border-width: 2px;
 }
 
-.bg-gray-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+.border-r-2 {
+  border-right-width: 2px;
+}
+
+.border-r-8 {
+  border-right-width: 8px;
+}
+
+.border-r-4 {
+  border-right-width: 4px;
 }
 
 .bg-blue-200 {
@@ -574,26 +604,39 @@ video {
   background-color: rgb(191 219 254 / var(--tw-bg-opacity));
 }
 
-.bg-blue-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+.from-cyan-500 {
+  --tw-gradient-from: #06b6d4;
+  --tw-gradient-to: rgb(6 182 212 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.via-cyan-600 {
+  --tw-gradient-to: rgb(8 145 178 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), #0891b2, var(--tw-gradient-to);
+}
+
+.to-cyan-800 {
+  --tw-gradient-to: #155e75;
+}
+
+.p-\[1rem\] {
+  padding: 1rem;
 }
 
 .text-center {
   text-align: center;
 }
 
-.font-sans {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-theme {
+  font-family: Rubik, sans-serif;
 }
 
 .text-2xl {
@@ -605,19 +648,8 @@ video {
   text-transform: uppercase;
 }
 
-.leading-normal {
-  line-height: 1.5;
-}
-
-.text-gray-800 {
+.text-white {
   --tw-text-opacity: 1;
-  color: rgb(31 41 55 / var(--tw-text-opacity));
-}
-
-@media (min-width: 1024px) {
-
-  .lg\:min-h-screen {
-    min-height: 100vh;
-  }
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 

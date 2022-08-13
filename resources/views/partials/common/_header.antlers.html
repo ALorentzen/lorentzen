@@ -1,8 +1,12 @@
-<div class="flex flex-col w-full h-[5rem] absolute top-0 bg-blue-600">
+<div class="flex flex-col w-full h-[5rem] absolute top-0 bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-800">
   <div class="w-full h-[2.5rem]">
     {{ nav:header }}
-      <a class="block text-2xl text-bolder text-center font-mono uppercase" href="{{ url }}">{{ title }}</a>
+      <a class="block text-2xl text-bolder text-center text-white uppercase font-theme" href="{{ url }}">{{ title }}</a>
     {{ /nav:header }}
-  </div
- {{ svg src="menu" class="m-center h-[2.5rem]" }}
+  </div>
+  <div class="flex flex-row w-full h-[2.5rem] ">
+    <a href="#" class="m-center border-2 border-r-4 rounded-sm">
+      {{ svg src="menu" class="h-full" }}
+    </a>
+  </div>
 </div>

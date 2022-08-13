@@ -9,6 +9,9 @@ module.exports = {
     extend: {
       margin: {
         'center' : '0 auto',
+      },
+      fontFamily: {
+        'theme' : 'Rubik, sans-serif',
       }
     },
   },

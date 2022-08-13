@@ -6,13 +6,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ title ?? site:name }}</title>
         <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+        
     </head>
-    <body class="bg-gray-100 font-sans leading-normal text-gray-800">
-        <div class="mx-auto px-2 lg:min-h-screen flex flex-col items-center justify-center">
-            {{ partial:partials/common/header }}
+    <body class="mt-[5rem]">
+        {{ partial:partials/common/header }}
+ 
+            
             {{ template_content }}
             
-        </div>
+  
         <script src="{{ mix src='/js/site.js' }}"></script>
     </body>
 </html>
