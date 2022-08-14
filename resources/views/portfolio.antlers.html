@@ -1,14 +1,13 @@
-<div class="flex relative w-full min-h-full bg-blue-200 h-[10rem] top-[5rem] text-center">
-
+<div class="w-full h-full bg-blue">
   {{ title }}
 
     {{ portfolio_categories }}
       {{ if type == "text" }}
-        {{ text }}
+        <span class="text-black">{{ text }}</span>
 
-      {{ elseif type == "portfolio_container" }}
+      {{ else if type=="portfolio_container" }}
         {{ partial src="sets/portfolio_container" }}
+      
       {{ /if }}
     {{ /portfolio_categories }}
-
 </div>

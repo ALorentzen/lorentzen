@@ -9,15 +9,16 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-        
     </head>
-    <body class="mt-[5rem]">
-        {{ partial:partials/common/header }}
  
-            
-            {{ template_content }}
-            
-  
+    <body class="flex flex-col min-h-screen w-full">
+        
+        {{ partial:partials/common/header }} 
+        
+            <section class="mt-[6rem] px-[1rem] py-[3rem]">{{ template_content }}</section>
+
+        {{ partial:partials/common/footer }}
+     
         <script src="{{ mix src='/js/site.js' }}"></script>
     </body>
 </html>

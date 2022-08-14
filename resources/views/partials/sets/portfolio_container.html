@@ -1,7 +1,7 @@
     <div class="w-[80%] h-[20rem] bg-green-200">
-        {{ portfolio_container }}
-            <h1 class="text-black text-2xl">{{ portfolio_title }}</h1>
-                {{ portfolio_thumbnail }}
-            {{ portfolio_description }}
-        {{ /portfolio_container }}
-      </div>
+        <h1 class="text-black text-2xl">{{ portfolio_title }}</h1>
+        {{ assets:portfolio_thumbnail }}
+            <img src="{{ url }}" class="object-contain w-[200px] h-[200px]"/>
+        {{ /assets:portfolio_thumbnail }}
+        <span class="text-4xl">{{ portfolio_description }}</span>
+    </div>

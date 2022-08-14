@@ -21,6 +21,7 @@
         "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
+        "dependencies": "^0.0.1",
         "exif": "^0.6.0",
         "mix": "^0.0.1",
         "yarn": "^1.22.19"
